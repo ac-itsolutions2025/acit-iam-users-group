@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://your.git.repo/IAMUserProvisioning.git', branch: 'main'
+                git url: 'https://github.com/ac-itsolutions2025/acit-iam-users-group.git', branch: 'main'
             }
         }
 
