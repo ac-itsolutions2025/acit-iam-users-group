@@ -25,7 +25,7 @@ pipeline {
                     $class: 'AmazonWebServicesCredentialsBinding',
                     credentialsId: 'aws-jenkins-creds'  // Update with your Jenkins credential ID
                 ]]) {
-                    sh 'bash ./create_users.sh'
+                    sh 'bash ./create-users.sh'
                 }
             }
         }
