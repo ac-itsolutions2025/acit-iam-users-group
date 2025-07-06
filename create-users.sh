@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Define variables
-GROUP_NAME="ACIT-SysAdmins"
+GROUP_NAME="ACIT-HelpDesk"
 USERS=(
-  "lesly.ofon@ac-itsolutions.net"
-  "marion.a.bame@ac-itsolutions.net"
-  "david.f.bame@ac-itsolutions.net"
-  "sharon.m.kode@ac-itsolutions.net"
+  "many@ac-itsolutions.net"
+  "handerson.a.ntani@ac-itsolutions.net"
+  "nelson.t.fultang@ac-itsolutions.net"
+  "randolp.a.bame@ac-itsolutions.net"
 )
 
 # IAM policies to attach to group
